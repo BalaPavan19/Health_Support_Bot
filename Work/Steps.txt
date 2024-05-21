@@ -1,0 +1,19 @@
+Here are the steps:
+
+1. Data Preparation: loaded training and testing data, where each row represents a patient and columns represent symptoms and the associated diagnosis (prognosis).
+
+2. Model Training: Trained a decision tree classifier (`DecisionTreeClassifier`) and a support vector machine classifier (`SVC`) on the training data.
+
+3. Feature Importance: Calculated the importance of each feature (symptom) in the decision tree classifier.
+
+4. Symptom Severity and Precautions: loaded CSV files containing information about symptom severity and precautions for each disease.
+
+5. Prediction and Diagnosis:
+   - Defined functions to predict diseases based on symptoms.
+   - Implemented a function to print the decision tree rules in a human-readable format and allow users to input symptoms for diagnosis.
+
+6. User Interaction: Created an interactive interface where users can input their symptoms, and the system provides a diagnosis along with relevant descriptions and precautions.
+
+7. Error Handling: Implemented error handling for user inputs to ensure the program runs smoothly.
+
+8. Integration with Google Drive: Data files in Google Drive and accessed them directly from your code.
